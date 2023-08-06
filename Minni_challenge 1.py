@@ -26,6 +26,10 @@ total_()
 
 #Mini challenge 3
 #Repeat mini challenge 2 (Write a code that takes in two inputs from the user and calculates the total) using lambda expressions insteadit
-total= lambda x= input('how many items did you buy'), y= input('what are the prices os those items(NOTE: use space to separate the prices)').split : [int(item) for item in y], sum(y)
+total= lambda x= input('how many items did you buy'), y= input('what are the prices os those items(NOTE: use space to separate the prices)').split : [int(item) for item in y]
+total
 
 #Mini challenge 4
+cubic_value=lambda x:x/3
+cubic_value(8)
+
