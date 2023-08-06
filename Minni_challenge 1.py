@@ -33,3 +33,10 @@ total
 cubic_value=lambda x:x/3
 cubic_value(8)
 
+my_list= list(range(-10, 11))
+print(my_list)
+generator1 = list(map ( lambda x:x**2 , my_list))
+generator1
+
+#Mini challenge
+
