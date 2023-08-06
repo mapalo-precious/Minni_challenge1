@@ -38,5 +38,10 @@ print(my_list)
 generator1 = list(map ( lambda x:x**2 , my_list))
 generator1
 
-#Mini challenge
+#Mini challenge5
+#Write a code from the user that takes in a range (upper and lower bounds) and returns a list of positive and even numbers only
+my_list2= list(range(-6, 8))
+print(my_list2)
+
+evenandpositive = list(  filter(lambda x: (x>=1) , my_list2) )
 
